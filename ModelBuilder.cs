@@ -15,7 +15,7 @@ using ModelBuilder.InitialData;
 namespace ModelBuilder
 {
 
-    public enum ModelBuilderErrors { NoError = 0, DBCreateFail = 1 }
+    public enum ModelBuilderErrors { DBCreateFail = 1 }
 
     class ModelBuilder
     {
