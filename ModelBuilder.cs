@@ -13,9 +13,10 @@ using ModelBuilder.InitialData;
 // Hi There
 
 namespace ModelBuilder
+
 {
 
-    public enum ModelBuilderErrors { DBCreateFail = 1 }
+    public enum ModelBuilderErrors { NewParam = 0, DBCreateFail = 1 }
 
     class ModelBuilder
     {
